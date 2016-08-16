@@ -1,0 +1,71 @@
+
+/*
+    ****************************************************************************************
+    1. Consider the following code. What code would you use to change the width of #element?
+    ****************************************************************************************
+*/
+
+/*
+
+	<div class="element" id="element"></div>
+
+	.element {
+		width: 100px;
+	}
+*/
+
+/* A */
+#element {
+    width: 100px !important;
+}
+
+/* B */
+#element {
+    width: 100px;
+}
+
+
+/* Please write your answer here: */
+
+B: as #element overrides .element so there is no need for !important
+
+
+/*
+    ******************************************************************************
+    2. Consider the following code. Whats the best way to align the divs together?
+    ******************************************************************************
+*/
+
+/*
+
+	<section>
+		<div<</div>
+		<div<</div>
+		<div<</div>
+		<div<</div>
+		<div<</div>
+		<div<</div>
+	</section>
+
+	div {
+		width: 100px;
+		height: 100px;
+	}
+*/
+
+/* Please write your code here: */
+
+<section>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+
+div {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
